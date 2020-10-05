@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="./public/css/app.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Emporium.</h1>
-    <h2>test</h2>
-    <h1>Nouveau test</h1>
-    <h1>Avant dernier test</h1>
-    
+    <!-- header -->
+    <section id="sectionHeader">
+        <h1>emporium.</h1>
+        <nav id="navBar">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ELEMENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTS</a>
+                </li>
+                <li class="nav-item">
+                    <div id="modeClair" style="border : solid black 1px; width: 20px; height: 20px;"></div>
+                    <div id="modeSombre"></div>
+                </li>
+                <li class="nav-item" style="background-color: black; width: 20px; height: 20px;"></li>
+                    <button>Connexion</button>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- scripts -->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
