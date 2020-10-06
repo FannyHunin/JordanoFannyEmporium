@@ -9895,7 +9895,7 @@ h3 {
   }
 }
 #sectionHeader {
-  height: 250px;
+  height: 200px;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -9925,6 +9925,7 @@ h3 {
 
 .a-sectionHeader {
   color: grey;
+  font-size: 10px;
 }
 
 .a-sectionHeader:hover {
@@ -9938,6 +9939,45 @@ h3 {
 
 #modeSombre {
   border-radius: 20%;
+}
+
+.div-Supp-section1 {
+  background-color: #f2f2f2;
+  align-items: center;
+  position: relative;
+}
+
+.div1-section1 {
+  height: 320px;
+  background-color: #f2f2f2;
+  z-index: 0;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.h1-section1 {
+  color: red;
+}
+
+.img1-section1 {
+  height: 90px;
+}
+
+.p-section1 {
+  font-size: 12px;
+}
+
+.button-section1 {
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 140px;
+  border: none;
+  font-size: 10px;
+}
+
+.div2-section1 {
+  margin-left: 600px;
 }
 
 /*# sourceMappingURL=app.css.map */
