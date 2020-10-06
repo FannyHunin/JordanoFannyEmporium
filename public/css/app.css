@@ -9956,7 +9956,8 @@ h3 {
 }
 
 .h1-section1 {
-  color: red;
+  color: #dd4545;
+  font-family: "Roboto", sans-serif;
 }
 
 .img1-section1 {
@@ -9965,19 +9966,65 @@ h3 {
 
 .p-section1 {
   font-size: 12px;
+  font-family: "Roboto", sans-serif;
 }
 
 .button-section1 {
-  background-color: red;
+  background-color: #dd4545;
   color: white;
   height: 40px;
   width: 140px;
   border: none;
   font-size: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 .div2-section1 {
   margin-left: 600px;
+}
+
+#section2 {
+  height: 300px;
+}
+
+.divRow-section2 {
+  margin-top: 50px;
+}
+
+.divForh3-section2 {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  border-bottom: solid white 3px;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 70px;
+}
+.divInRow1-section2 {
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/services/service-1.jpg);
+}
+
+.divInRow2-section2 {
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/services/service-2.jpg);
+}
+
+.divInRow3-section2 {
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/services/slider-3.jpg);
 }
 
 /*# sourceMappingURL=app.css.map */
