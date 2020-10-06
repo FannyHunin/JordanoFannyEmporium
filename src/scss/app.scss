@@ -9896,7 +9896,7 @@ h3 {
 }
 .classModeSombre {
   color: white;
-  background-color: black;
+  background-color: black !important;
 }
 
 #sectionHeader {
@@ -9909,6 +9909,7 @@ h3 {
 
 .img-sectionHeader {
   margin-top: 45px;
+  font-weight: bold;
 }
 
 #navBar {
@@ -9947,6 +9948,7 @@ h3 {
 #modeClair {
   margin-right: 5px;
   border-radius: 20%;
+  background-color: white;
 }
 
 #modeSombre {
@@ -10090,6 +10092,8 @@ h3 {
   align-items: center;
   justify-content: center;
   background-image: url(../img/services/service-1.jpg);
+  background-position: center;
+  background-size: 100%;
 }
 
 .divInRow2-section2 {
@@ -10099,6 +10103,8 @@ h3 {
   align-items: center;
   justify-content: center;
   background-image: url(../img/services/service-2.jpg);
+  background-position: center;
+  background-size: 100%;
 }
 
 .divInRow3-section2 {
@@ -10108,6 +10114,8 @@ h3 {
   align-items: center;
   justify-content: center;
   background-image: url(../img/services/slider-3.jpg);
+  background-position: center;
+  background-size: 100%;
 }
 
 #section3 {
@@ -10120,9 +10128,9 @@ h3 {
 }
 
 .divContainer-section3 {
+  text-align: center;
   height: 950px;
   width: 900px;
-  background-color: white;
 }
 
 .divCol4-section3 {
@@ -10162,6 +10170,38 @@ h3 {
   height: 300px;
   width: 350px;
   transition: 2s;
+}
+
+#section4 {
+  height: 600px;
+  background-image: url(../img/cta-bg.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.div-section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.h1-section4 {
+  font-size: 52px;
+}
+
+.button-section4 {
+  height: 30px;
+  border-radius: 10%;
+  font-size: 12px;
+  background-color: #dd4545;
+  color: white;
+  border: none;
+}
+
+.button-section4:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=app.scss.map */
