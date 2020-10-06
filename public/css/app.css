@@ -9979,6 +9979,10 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+.button-section1:hover {
+  color: black;
+}
+
 .div2-section1 {
   margin-left: 600px;
 }
@@ -10015,6 +10019,8 @@ h3 {
   align-items: center;
   justify-content: center;
   background-image: url(../img/services/service-1.jpg);
+  background-position: center;
+  background-size: 100%;
 }
 
 .divInRow2-section2 {
@@ -10024,6 +10030,8 @@ h3 {
   align-items: center;
   justify-content: center;
   background-image: url(../img/services/service-2.jpg);
+  background-position: center;
+  background-size: 100%;
 }
 
 .divInRow3-section2 {
@@ -10033,6 +10041,8 @@ h3 {
   align-items: center;
   justify-content: center;
   background-image: url(../img/services/slider-3.jpg);
+  background-position: center;
+  background-size: 100%;
 }
 
 #section3 {
@@ -10087,6 +10097,38 @@ h3 {
   height: 300px;
   width: 350px;
   transition: 2s;
+}
+
+#section4 {
+  height: 600px;
+  background-image: url(../img/cta-bg.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.div-section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.h1-section4 {
+  font-size: 52px;
+}
+
+.button-section4 {
+  height: 30px;
+  border-radius: 10%;
+  font-size: 12px;
+  background-color: #dd4545;
+  color: white;
+  border: none;
+}
+
+.button-section4:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=app.css.map */
