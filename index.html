@@ -13,52 +13,105 @@
 <body>
     <!-- header -->
     <section id="sectionHeader">
-        <img src="./public/img/logo.png" alt="">
-        <nav id="navBar">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
+        <nav id="navBar" class="m-0">
+            <img class="img-sectionHeader" src="./public/img/logo.png" alt="">
+            <ul class="nav justify-content-center ul-sectionHeader">
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">HOME</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">PRODUCT</a>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">PRODUCT</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">BLOG</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ELEMENTS</a>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">ELEMENTS</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACTS</a>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">CONTACTS</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item li-sectionHeaderLast">
                     <div id="modeClair" style="border : solid black 1px; width: 20px; height: 20px;"></div>
-                    <div id="modeSombre" style="background-color: black; width: 20px; height: 20px;"></div>
+                    <div id="modeSombre" style="background-color: darkslategrey; width: 20px; height: 20px;"></div>
                 </li>
-                <li class="nav-item"></li>
-                <button>Connexion</button>
+                <li class="nav-item li-sectionHeader">
+                    <button style="background-color: darkslategrey; color:white; border : none;"
+                        class="p-2">Connexion</button>
+                    <div id="myModal" class="modalDiv">
+                        <!-- Modal content -->
+                        <div class="modal-cont">
+                            <h5>Se connecter</h5>
+                            <label for="">
+                                Nom d'utilisateur
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                Mot de passe
+                                <input type="password">
+                            </label>
+                            <div style="display: flex; justify-content: center ;width: 100%; ">
+                                <button class="closeBtn" style="margin-left: 10px; margin-right: 10px;">Se
+                                    connecter</button>
+                                <button class="closeBtn"
+                                    style="margin-left: 10px; margin-right: 10px;">S'inscrire</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="myModalInscr" class="modalDiv">
+                        <div class="modal-cont-inscription">
+                            <h5>S'inscrire</h5>
+                            <label for="">
+                                Nom
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                Prénom
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                E-mail
+                                <input type="email">
+                            </label>
+                            <label for="">
+                                Mot de passe
+                                <input type="password">
+                            </label>
+                            <label for="">
+                                Confirmation de mot de passe
+                                <input type="password">
+                            </label>
+                            <div style="display: flex; justify-content: center ;width: 100%; ">
+                                <button class="closeBtn"
+                                    style="margin-left: 10px; margin-right: 10px;">S'inscrire</button>
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </nav>
     </section>
 
     <!-- section 1 -->
-    <section id="section1">
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <h1>Shop at</h1>
-                    <img src="./public/img/logo.png" alt="">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+    <section id="section1" class="div-Supp-section1">
+        <div class="container-flex">
+            <div class="row div-Supp-section1 m-0 p-0">
+                <div class="col-8 m-0 p-0 div1-section1">
+                    <h1 class="h1-section1 m-0 p-0">Shop at</h1>
+                    <img class="img-section1" src="./public/img/logo.png" alt="">
+                    <p class="p-section1">A wonderful serenity has taken possession of my entire soul, like these sweet
+                        <br> mornings of spring
                         which I enjoy with my soul.</p>
-                    <button>SALE ITEMS</button>
+                    <button class="badge badge-pill badge-danger button-section1">SALE ITEMS</button>
                 </div>
-                <div class="col-4">
-                    <img src="./public/img/slider-1.jpg" alt="">
+
+                <div class="col-4 div2-section1 p-0">
+                    <img height="400px" src="./public/img/slider-1.jpg" alt="">
                 </div>
+
             </div>
         </div>
     </section>
@@ -261,7 +314,9 @@
                     <h5>
                         ABOUT US
                     </h5>
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of cats.</p>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+                        which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
+                        which was created for the bliss of cats.</p>
                 </div>
                 <div class="col-4">
                     <h5>
@@ -295,6 +350,7 @@
     </footer>
 
     <!-- scripts -->
+    <script type="module" src="./public/js/main.js"></script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
