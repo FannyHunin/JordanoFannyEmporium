@@ -9899,6 +9899,10 @@ h3 {
   background-color: black !important;
 }
 
+.d-none {
+  display: none;
+}
+
 #sectionHeader {
   height: 200px;
   display: flex;
@@ -10139,15 +10143,15 @@ h3 {
   align-items: center;
 }
 
-.article-section3 {
+.article-section {
   margin-top: 25px;
 }
 
-.prix-section3 {
+.prix-section {
   color: #dd4545;
 }
 
-.del-section3 {
+.del-section {
   color: grey;
 }
 
@@ -10159,6 +10163,17 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.divSale-section3Bis {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #dd4545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .img-section3 {
@@ -10202,6 +10217,41 @@ h3 {
 
 .button-section4:hover {
   color: black;
+}
+
+#section5 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.p-section5 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.divBtnRond-section5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btnRond {
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+  border: solid 1px grey;
+  background-color: white;
+  margin: 10px;
+}
+
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=app.css.map */
