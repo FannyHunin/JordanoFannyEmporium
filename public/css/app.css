@@ -9968,7 +9968,8 @@ h3 {
 }
 
 .h1-section1 {
-  color: red;
+  color: #dd4545;
+  font-family: "Roboto", sans-serif;
 }
 
 .img-section1 {
@@ -9981,7 +9982,7 @@ h3 {
 }
 
 .button-section1 {
-  background-color: red;
+  background-color: #dd4545;
   color: white;
   height: 40px;
   width: 140px;
@@ -10055,6 +10056,112 @@ h3 {
   padding: 20px;
   width: 50%;
   text-align: center;
+}
+
+#section2 {
+  height: 300px;
+}
+
+.divRow-section2 {
+  margin-top: 50px;
+}
+
+.divForh3-section2 {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  border-bottom: solid white 3px;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 70px;
+  color: white;
+}
+
+.divForh3-section2:hover {
+  width: 10px;
+  transition: 2s;
+  animation-direction: alternate;
+}
+
+.divInRow1-section2 {
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/services/service-1.jpg);
+}
+
+.divInRow2-section2 {
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/services/service-2.jpg);
+}
+
+.divInRow3-section2 {
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/services/slider-3.jpg);
+}
+
+#section3 {
+  height: 1050px;
+}
+
+.p-section3 {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.divContainer-section3 {
+  height: 950px;
+  width: 900px;
+  background-color: white;
+}
+
+.divCol4-section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-section3 {
+  margin-top: 25px;
+}
+
+.prix-section3 {
+  color: #dd4545;
+}
+
+.del-section3 {
+  color: grey;
+}
+
+.divSale-section3 {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #dd4545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-section3 {
+  height: 200px;
+  width: 250px;
+}
+
+.img-section3:hover {
+  height: 300px;
+  width: 350px;
+  transition: 2s;
 }
 
 /*# sourceMappingURL=app.css.map */
