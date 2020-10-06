@@ -1,20 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="./public/css/app.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Emporium.</h1>
-    <h2>test</h2>
-    <h1>Nouveau test</h1>
-    <h1>Avant dernier test</h1>
-    <h2>tets micro</h2>
-    
+    <!-- header -->
+    <section id="sectionHeader">
+        <img class="img-sectionHeader" src="./public/img/logo.png" alt="">
+        <nav id="navBar">
+            <ul class="nav justify-content-center ul-sectionHeader">
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">HOME</a>
+                </li>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">PRODUCT</a>
+                </li>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">BLOG</a>
+                </li>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">ELEMENTS</a>
+                </li>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item li-sectionHeader">
+                    <a class="nav-link a-sectionHeader" href="#">CONTACTS</a>
+                </li>
+                <li class="nav-item li-sectionHeaderLast">
+                    <div id="modeClair" style="border : solid black 1px; width: 20px; height: 20px;"></div>
+                    <div id="modeSombre" style="background-color: darkslategrey; width: 20px; height: 20px;"></div>
+                </li>
+                <li class="nav-item li-sectionHeader">
+                    <button style="background-color: darkslategrey; color:white">Connexion</button>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- section 1 -->
+    <section id="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h1>Shop at</h1>
+                    <img src="./public/img/logo.png" alt="">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+                        which I enjoy with my soul.</p>
+                    <button>SALE ITEMS</button>
+                </div>
+                <div class="col-4">
+                    <img src="./public/img/slider-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section id="section2">
+        <!-- Les images sont à mettre en bg de la div sur SASS ! -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3>Living Room</h3>
+                </div>
+                <div class="col-4">
+                    <h3>Sale Items</h3>
+                </div>
+                <div class="col-4">
+                    <h3>Clothes</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 -->
+    <section id="section3">
+        <div class="container">
+            <!-- 1ere rangee -->
+            <div class="row">
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <h6 class="nomArticle">Luxury sofa</h6>
+                    <h6 class="prix">$600.00</h6>
+                </div>
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-gloves.jpg" alt="">
+                    <div>
+                        <p class="sale">SALE!</p>
+                        <div>
+                            <h6 class="nomArticle">Leather Gloves</h6>
+                            <h6 class="prix"><del>$34</del>$27.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-cups.jpg" alt="">
+                    <h6 class="nomArticle">Colorful Bowl</h6>
+                    <h6 class="prix">$18.00</h6>
+                </div>
+            </div>
+            <!-- 2eme rangee -->
+            <div class="row">
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-bag.jpg" alt="">
+                    <div>
+                        <p class="sale">SALE!</p>
+                        <div>
+                            <h6 class="nomArticle">Woman Bag</h6>
+                            <h6 class="prix"><del>$420.00</del>$350.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-tshitr.jpg" alt="">
+                    <h6 class="nomArticle">Minimal T-Shirt</h6>
+                    <h6 class="prix">$15.00</h6>
+                </div>
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-plates.jpg" alt="">
+                    <h6 class="nomArticle">Plates Set</h6>
+                    <h6 class="prix">$30.00</h6>
+                </div>
+            </div>
+            <!-- 3eme rangee -->
+            <div class="row">
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+                    <h6 class="nomArticle">Modern Sofa</h6>
+                    <h6 class="prix">$900.00</h6>
+                </div>
+                <div class="col-4">
+                    <img src="./public/img/products_mini//product-bed.jpg" alt="">
+                    <h6 class="nomArticle">Bed Linen</h6>
+                    <h6 class="prix">$79.00</h6>
+                </div>
+                <div class="col-4">
+                    <img src="./public/img/products_mini/product-shoes.jpg" alt="">
+                    <h6 class="nomArticle">Minimal Shoes</h6>
+                    <h6 class="prix">$60.00</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+    <section id="section4">
+        <div>
+            <!-- Images à mettre en bg sur SASS ! -->
+            <h1>Discover Thousands Of Great Products</h1>
+            <button>LEARN MORE</button>
+        </div>
+    </section>
+
+    <!-- section 5 -->
+    <section id="section5">
+        <!-- changer images et titres grâce au DOM -->
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <h6 class="nomArticle">Luxury Sofa</h6>
+                    <p class="prix">$600.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="./public/img/products_mini/product-gloves.jpg" alt="">
+                    <div>
+                        <p class="sale">SALE!</p>
+                        <div>
+                            <h6 class="nomArticle">Leather Gloves</h6>
+                            <p class="prix"><del>$34.00</del>$27.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="./public/img/products_mini/product-cups.jpg" alt="">
+                    <h6 class="nomArticle">Colorful Bowls</h6>
+                    <p class="prix">$18.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="./public/img/products_mini/product-bag.jpg" alt="">
+                    <div>
+                        <p class="sale">SALE!</p>
+                        <div>
+                            <h6 class="nomArticle">Women Bag</h6>
+                            <p class="prix"><del>$420.00</del>$350.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- boutons ronds -->
+                <div class="col-3 btnRond"></div>
+                <div class="col-3 btnRond"></div>
+                <div class="col-3 btnRond"></div>
+                <div class="col-3 btnRond"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 -->
+    <section id="section6">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="far fa-check-circle"></i>
+                            <h5 class="card-subtitle mb-2 text-muted">TRUSTED BY 10,000+ CUSTOMERS</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
+                                sapiente modi labore dolores reiciendis itaque odit.</p>
+                            <button class="bouttonCartes">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="far fa-paper-plane"></i>
+                            <h5 class="card-subtitle mb-2 text-muted">VERY FAST SHIPPING</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
+                                sapiente modi labore dolores reiciendis itaque odit.</p>
+                            <button class="bouttonCartes">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="far fa-check-circle"></i>
+                            <h5 class="card-subtitle mb-2 text-muted">TRUSTED BY 10,000+ CUSTOMERS</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
+                                sapiente modi labore dolores reiciendis itaque odit.</p>
+                            <button class="bouttonCartes">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-flex">
+            <div class="row">
+                <div class="col-4">
+                    <h5>
+                        ABOUT US
+                    </h5>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of cats.</p>
+                </div>
+                <div class="col-4">
+                    <h5>
+                        RECENT POSTS
+                    </h5>
+                    <h6>> Hello World</h6>
+                    <h6>Wonderful serenity has taken</h6>
+                    <h6>In my soul and absorb its power</h6>
+                    <h6>I hear the buzz of the little bees</h6>
+                </div>
+                <div class="col-4">
+                    <h5>
+                        TAG CLOUD
+                    </h5>
+                    <button class="bouttonsTags">business</button>
+                    <button class="bouttonsTags">confidence</button>
+                    <button class="bouttonsTags">gadgets</button>
+                    <button class="bouttonsTags">identity</button>
+                    <button class="bouttonsTags">logo</button>
+                    <button class="bouttonsTags">photography</button>
+                    <button class="bouttonsTags">time</button>
+                    <button class="bouttonsTags">trips</button>
+                    <button class="bouttonsTags">works</button>
+                    <button class="bouttonsTags">work space</button>
+                </div>
+            </div>
+            <div class="row">
+                <p id="copyright">COPYRIGHT 2020 GOODLAYERS, ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
