@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="./public/css/app.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -226,11 +227,14 @@
     </section>
 
     <!-- section 6 -->
-    <section id="section6">
+
+    <!--<section id="section6">
         <div class="container">
+            
             <div class="row">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
+
+                <div class="col-4 bg-primary divCol-4-section6">
+                    <div class="card bg-secondary" style="width: 18rem;">
                         <div class="card-body">
                             <i class="far fa-check-circle"></i>
                             <h5 class="card-subtitle mb-2 text-muted">TRUSTED BY 10,000+ CUSTOMERS</h5>
@@ -242,9 +246,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
+
+                <div class="col-4 bg-primary divCol-4-section6">
+                    <div class="card bg-secondary divCentrale-section6" style="width: 18rem;">
+                        <div class="card-body divCentrale-section6">
                             <i class="far fa-paper-plane"></i>
                             <h5 class="card-subtitle mb-2 text-muted">VERY FAST SHIPPING</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
@@ -255,8 +260,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
+
+                <div class="col-4 bg-primary divCol-4-section6">
+                    <div class="card bg-secondary" style="width: 18rem;">
                         <div class="card-body">
                             <i class="far fa-check-circle"></i>
                             <h5 class="card-subtitle mb-2 text-muted">TRUSTED BY 10,000+ CUSTOMERS</h5>
@@ -268,15 +274,47 @@
                         </div>
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </section>-->
+    <section>
+        <div class="d-flex divPrinciaple-section6">
+            <div class="card-body div-cards">
+                <i class="far fa-check-circle"></i>
+                <h5 class="card-subtitle mb-2 text-muted h5-section6">TRUSTED BY 10,000+ CUSTOMERS</h5>
+                <p class="card-text p-section6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
+                    sapiente modi labore dolores reiciendis itaque odit.</p>
+                <button class="bouttonCartes button1-section6">
+                    LEARN MORE
+                </button>
+            </div>
+            <div id="div-cards" class="card-body div-cards">
+                <i class="far fa-paper-plane"></i>
+                <h5 id="h5-section6" class="card-subtitle mb-2">VERY FAST SHIPPING</h5>
+                <p class="card-text p-section6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
+                    sapiente modi labore dolores reiciendis itaque odit.</p>
+                <button class="bouttonCartes button2-section6">
+                    LEARN MORE
+                </button>
+            </div>
+            <div class="card-body div-cards">
+                <i class="far fa-check-circle"></i>
+                <h5 class="card-subtitle mb-2 text-muted h5-section6">TRUSTED BY 10,000+ CUSTOMERS</h5>
+                <p class="card-text p-section6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
+                    sapiente modi labore dolores reiciendis itaque odit.</p>
+                <button class="bouttonCartes button1-section6">
+                    LEARN MORE
+                </button>
             </div>
         </div>
     </section>
 
     <!-- footer -->
     <footer>
-        <div class="container-flex">
-            <div class="row">
-                <div class="col-4">
+        <div class="container-flex bg-primary divContainer-footer">
+            <div class="row bg-danger divRow-footer">
+                <div class="col-4 divCol4-footer">
                     <h5>
                         ABOUT US
                     </h5>
@@ -284,7 +322,7 @@
                         which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
                         which was created for the bliss of cats.</p>
                 </div>
-                <div class="col-4">
+                <div class="col-4 divCol4-footer">
                     <h5>
                         RECENT POSTS
                     </h5>
@@ -293,7 +331,7 @@
                     <h6>In my soul and absorb its power</h6>
                     <h6>I hear the buzz of the little bees</h6>
                 </div>
-                <div class="col-4">
+                <div class="col-4 divCol4-footer">
                     <h5>
                         TAG CLOUD
                     </h5>
@@ -309,7 +347,7 @@
                     <button class="bouttonsTags">work space</button>
                 </div>
             </div>
-            <div class="row">
+            <div class="row divCopy-footer">
                 <p id="copyright">COPYRIGHT 2020 GOODLAYERS, ALL RIGHTS RESERVED</p>
             </div>
         </div>
