@@ -151,7 +151,7 @@ img9_section3.addEventListener('mouseout', () => {
     img9_section3.classList = 'img-section3'
 })
 
-//----------------------- carousel ---------------------------//
+
 
 
 
