@@ -14,8 +14,8 @@
 <body>
     <!-- header -->
     <section id="sectionHeader">
-        <img class="img-sectionHeader" src="./public/img/logo.png" alt="">
-        <nav id="navBar">
+        <nav id="navBar" class="m-0">
+            <h1 class="img-sectionHeader">emporium.</h1>
             <ul class="nav justify-content-center ul-sectionHeader">
                 <li class="nav-item li-sectionHeader">
                     <a class="nav-link a-sectionHeader" href="#">HOME</a>
@@ -40,7 +40,57 @@
                     <div id="modeSombre" style="background-color: darkslategrey; width: 20px; height: 20px;"></div>
                 </li>
                 <li class="nav-item li-sectionHeader">
-                    <button style="background-color: darkslategrey; color:white">Connexion</button>
+                    <button style="background-color: darkslategrey; color:white; border : none;"
+                        class="p-2">Connexion</button>
+                    <div id="myModal" class="modalDiv">
+                        <!-- Modal content -->
+                        <div class="modal-cont">
+                            <h5>Se connecter</h5>
+                            <label for="">
+                                Nom d'utilisateur
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                Mot de passe
+                                <input type="password">
+                            </label>
+                            <div style="display: flex; justify-content: center ;width: 100%; ">
+                                <button class="closeBtn" style="margin-left: 10px; margin-right: 10px;">Se
+                                    connecter</button>
+                                <button class="closeBtn"
+                                    style="margin-left: 10px; margin-right: 10px;">S'inscrire</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="myModalInscr" class="modalDiv">
+                        <div class="modal-cont-inscription">
+                            <h5>S'inscrire</h5>
+                            <label for="">
+                                Nom
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                Prénom
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                E-mail
+                                <input type="email">
+                            </label>
+                            <label for="">
+                                Mot de passe
+                                <input type="password">
+                            </label>
+                            <label for="">
+                                Confirmation de mot de passe
+                                <input type="password">
+                            </label>
+                            <div style="display: flex; justify-content: center ;width: 100%; ">
+                                <button class="closeBtn"
+                                    style="margin-left: 10px; margin-right: 10px;">S'inscrire</button>
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -48,19 +98,18 @@
 
     <!-- section 1 -->
     <section id="section1" class="div-Supp-section1">
-        <div class="container">
-            <div class="row div-Supp-section1">
-
-                <div class="col-8 div1-section1">
-                    <h1 class="h1-section1">Shop at</h1>
-                    <img height="80px" class="img-section1" src="./public/img/logo.png" alt="">
+        <div class="container-flex">
+            <div class="row div-Supp-section1 m-0 p-0">
+                <div class="col-8 m-0 p-0 div1-section1">
+                    <h1 class="h1-section1 m-0 p-0">Shop at</h1>
+                    <img class="img-section1" src="./public/img/logo.png" alt="">
                     <p class="p-section1">A wonderful serenity has taken possession of my entire soul, like these sweet
                         <br> mornings of spring
                         which I enjoy with my soul.</p>
                     <button class="badge badge-pill badge-danger button-section1"><a class="a-section1" style="text-decoration: none;" href="#test">SALE ITEMS</a></button>
                 </div>
 
-                <div class="col-4 div2-section1">
+                <div class="col-4 div2-section1 p-0">
                     <img height="400px" src="./public/img/slider-1.jpg" alt="">
                 </div>
 
@@ -73,12 +122,15 @@
         <div class="divPrincipale-section2">
             <div class="div1-section2">
                 <p class="p-section2">Living Room</p>
+                <div class="border-section2"></div>
             </div>
             <div class="div2-section2">
                 <a class="a-section2" style="text-decoration: none;" href="#test">Sale Items</a>
+                <div class="border-section2"></div>
             </div>
             <div class="div3-section2">
                 <p class="p-section2">Clothes</p>
+                <div class="border-section2"></div>
             </div>
         </div>
     </section>
@@ -90,14 +142,14 @@
 
             <!-- 1ere rangee -->
             <div class="row">
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" height="200px" width="250px"
                         src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
                     <h6 class="article-section">Luxury sofa</h6>
                     <h6 class="prix-section">$600.00</h6>
                 </div>
 
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini/product-gloves.jpg" alt="">
                     <div class="d-flex">
                         <p class="divSale-section3Bis p-section3">SALE!</p>
@@ -108,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini/product-cups.jpg" alt="">
                     <h6 class="article-section">Colorful Bowl</h6>
                     <h6 class="prix-section">$18.00</h6>
@@ -117,7 +169,7 @@
 
             <!-- 2eme rangee -->
             <div class="row">
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini/product-bag.jpg" alt="">
                     <div class="d-flex">
                         <p class="divSale-section3 p-section3">SALE!</p>
@@ -128,13 +180,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini/product-tshitr.jpg" alt="">
                     <h6 class="article-section
                     ">Minimal T-Shirt</h6>
                     <h6 class="prix-section">$15.00</h6>
                 </div>
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini/product-plates.jpg" alt="">
                     <h6 class="article-section">Plates Set</h6>
                     <h6 class="prix-section">$30.00</h6>
@@ -143,17 +195,17 @@
 
             <!-- 3eme rangee -->
             <div class="row">
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
                     <h6 class="article-section">Modern Sofa</h6>
                     <h6 class="prix-section">$900.00</h6>
                 </div>
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini//product-bed.jpg" alt="">
                     <h6 class="article-section">Bed Linen</h6>
                     <h6 class="prix-section">$79.00</h6>
                 </div>
-                <div class="col-4 divCol4-section3">
+                <div class="col-4 divCol4-section3 binks">
                     <img class="img-section3" src="./public/img/products_mini/product-shoes.jpg" alt="">
                     <h6 class="article-section">Minimal Shoes</h6>
                     <h6 class="prix-section">$60.00</h6>
@@ -174,14 +226,19 @@
     <!-- section 5 -->
     <section id="section5">
         <!-- changer images et titres grâce au DOM -->
-        <div class="container">
+        <div class="container carrou">
+
             <p class="p-section5">Hot Fashion Products</p>
+
             <div class="row divRow-section5">
                 <div class="col-3 div-section5">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <div class="contImg">
+                    <img class="imgofcarou" height="180px" width="200px" src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    </div>
                     <h6 class="article-section">Luxury Sofa</h6>
                     <p class="prix-section">$600.00</p>
                 </div>
+
                 <div class="col-3 div-section5">
                     <img height="180px" width="200px" src="./public/img/products_mini/product-gloves.jpg" alt="">
                     <div class="d-flex">
@@ -207,15 +264,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="divBtnRond-section5">
-                    <!-- boutons ronds -->
-                    <div class="btnRond"></div>
-                    <div class="btnRond"></div>
-                    <div class="btnRond"></div>
-                    <div class="btnRond"></div>
-                </div>
             </div>
 
+            <div class="row divRow-section5 m-0 p-0">
+                <div class="col-3">
+                    <img height="180px" width="200px" src="./public/img/products_mini/product-bed.jpg" alt="">
+                    <h6 class="article-section">Bed Linen</h6>
+                    <p class="prix-section">$78.00</p>
+                </div>
+                <div class="col-3">
+                    <img height="180px" width="200px" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+                    <h6 class="article-section">Modern Sofa</h6>
+                    <p class="prix-section">$900.00</p>
+                </div>
+                <div class="col-3">
+                    <img height="180px" width="200px" src="./public/img/products_mini/product-plates.jpg" alt="">
+                    <h6 class="article-section">Plates Set</h6>
+                    <p class="prix-section">$30.00</p>
+                </div>
+                <div class="col-3">
+                    <img height="180px" width="200px" src="./public/img/products_mini/product-shoes.jpg" alt="">
+                    <h6 class="article-section">Minimal Shoes</h6>
+                    <p class="prix-section">$60.00</p>
+                </div>
+            </div>
+            <div class="row divRow-section5 m-0 p-0">
+                <div class="col-3">
+                    <img height="180px" width="200px" src="./public/img/products_mini/product-tshitr.jpg" alt="">
+                    <h6 class="article-section">Minimal T-Shirt</h6>
+                    <p class="prix-section">$15.00</p>
+                </div>
+            </div>
+            <div class="divBtnRond-section5">
+                <div class="btnRond"></div>
+                <div class="btnRond"></div>
+                <div class="btnRond"></div>
+            </div>
         </div>
     </section>
 
@@ -297,6 +381,7 @@
     </footer>
 
     <!-- scripts -->
+    <script type="module" src="./public/js/main.js"></script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
