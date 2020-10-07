@@ -120,22 +120,16 @@
 
     <!-- section 2 -->
     <section id="section2">
-        <div class="container-flex containerSct2">
-            <div class="row divRow-section2">
-                <div class="col-4 divInRow1-section2">
-                    <div class="divForh3-section2">
-                        <h3 class="h3-section2">Living Room</h3>
-                    </div>
+        <div class="container-flex">
+            <div class="row">
+                <div class="col-3 d-flex justify-content-center align-items-center" id="img1">
+                    <h3 class="h3Sct2">Living Room</h3>
                 </div>
-                <div class="col-4 divInRow2-section2">
-                    <div class="divForh3-section2">
-                        <h3 class="h3-section2">Sale Items</h3>
-                    </div>
+                <div class="col-3 d-flex justify-content-center align-items-center" id="img2">
+                    <h3 class="h3Sct2">Sale Items</h3>
                 </div>
-                <div class="col-4 divInRow3-section2">
-                    <div class="divForh3-section2">
-                        <h3 class="h3-section2">Clothes</h3>
-                    </div>
+                <div class="col-3 d-flex justify-content-center align-items-center" id="img3">
+                    <h3 class="h3Sct2">Clothes</h3>
                 </div>
             </div>
         </div>
@@ -143,23 +137,20 @@
 
     <!-- section 3 -->
     <section id="section3">
-        <div class="container divContainer-section3 ">
+        <div class="container-flex divContainer-section3 ">
             <h3 class="h3-section3">Recent Products</h3>
-
             <!-- 1ere rangee -->
-            <div class="row">
+            <div class="rowSct3">
                 <div class="col-4 divCol4-section3">
-                    <img class="img-section3" height="200px" width="250px"
-                        src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <img class="img-section3" src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
                     <h6 class="article-section">Luxury sofa</h6>
                     <h6 class="prix-section">$600.00</h6>
                 </div>
-
                 <div class="col-4 divCol4-section3">
                     <img class="img-section3" src="./public/img/products_mini/product-gloves.jpg" alt="">
-                    <div class="d-flex">
-                        <p class="divSale-section3Bis p-section3">SALE!</p>
-                        <div class="divCol4-section3 mt-4">
+                    <div class="saleDiv">
+                        <button class="divSale-section3Bis">SALE!</button>
+                        <div>
                             <h6 class="article-section">Leather Gloves</h6>
                             <h6 class="prix-section"><del class="del-section">$34.00</del>$27.00</h6>
                         </div>
@@ -174,22 +165,20 @@
             </div>
 
             <!-- 2eme rangee -->
-            <div class="row">
+            <div class="rowSct3">
                 <div class="col-4 divCol4-section3">
                     <img class="img-section3" src="./public/img/products_mini/product-bag.jpg" alt="">
-                    <div class="d-flex">
-                        <p class="divSale-section3 p-section3">SALE!</p>
+                    <div class="saleDiv">
+                        <button class="divSale-section3Bis">SALE!</button>
                         <div class="mt-1">
-                            <h6 class="article-section
-                            ">Woman Bag</h6>
+                            <h6 class="article-section">Woman Bag</h6>
                             <h6 class="prix-section"><del class="del-section">$420.00</del>$350.00</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-4 divCol4-section3">
                     <img class="img-section3" src="./public/img/products_mini/product-tshitr.jpg" alt="">
-                    <h6 class="article-section
-                    ">Minimal T-Shirt</h6>
+                    <h6 class="article-section">Minimal T-Shirt</h6>
                     <h6 class="prix-section">$15.00</h6>
                 </div>
                 <div class="col-4 divCol4-section3">
@@ -200,7 +189,7 @@
             </div>
 
             <!-- 3eme rangee -->
-            <div class="row">
+            <div class="rowSct3">
                 <div class="col-4 divCol4-section3">
                     <img class="img-section3" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
                     <h6 class="article-section">Modern Sofa</h6>
@@ -236,14 +225,14 @@
             <p class="p-section5">Hot Fashion Products</p>
             <div class="row divRow-section5">
                 <div class="col-3 div-section5">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <img class="imgSct5" src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
                     <h6 class="article-section">Luxury Sofa</h6>
                     <p class="prix-section">$600.00</p>
                 </div>
                 <div class="col-3 div-section5">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-gloves.jpg" alt="">
-                    <div class="d-flex">
-                        <p class="divSale-section3 p-section3">SALE!</p>
+                    <img class="imgSct5" src="./public/img/products_mini/product-gloves.jpg" alt="">
+                    <div class="saleSct5">
+                        <button class="divSale-section3Bis p-section3">SALE!</button>
                         <div>
                             <h6 class="article-section">Leather Gloves</h6>
                             <p class="prix-section"><del class="del-section">$34.00</del>$27.00</p>
@@ -251,14 +240,14 @@
                     </div>
                 </div>
                 <div class="col-3 div-section5">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-cups.jpg" alt="">
+                    <img class="imgSct5" src="./public/img/products_mini/product-cups.jpg" alt="">
                     <h6 class="article-section">Colorful Bowls</h6>
                     <p class="prix-section">$18.00</p>
                 </div>
                 <div class="col-3 div-section5">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-bag.jpg" alt="">
-                    <div class="d-flex">
-                        <p class="divSale-section3 p-section3">SALE!</p>
+                    <img class="imgSct5" src="./public/img/products_mini/product-bag.jpg" alt="">
+                    <div class="saleSct5">
+                        <button class="divSale-section3Bis p-section3">SALE!</button>
                         <div>
                             <h6 class="article-section">Women Bag</h6>
                             <p class="prix-section"><del class="del-section">$420.00</del>$350.00</p>
@@ -268,29 +257,29 @@
             </div>
             <div class="row divRow-section5 m-0 p-0">
                 <div class="col-3">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-bed.jpg" alt="">
+                    <img class="imgSct5" src="./public/img/products_mini/product-bed.jpg" alt="">
                     <h6 class="article-section">Bed Linen</h6>
                     <p class="prix-section">$78.00</p>
                 </div>
                 <div class="col-3">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+                    <img class="imgSct5" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
                     <h6 class="article-section">Modern Sofa</h6>
                     <p class="prix-section">900.00</p>
                 </div>
                 <div class="col-3">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-plates.jpg" alt="">
+                    <img class="imgSct5" src="./public/img/products_mini/product-plates.jpg" alt="">
                     <h6 class="article-section">Plates Set</h6>
                     <p class="prix-section">$30.00</p>
                 </div>
                 <div class="col-3">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-shoes.jpg" alt="">
+                    <img class="imgSct5" src="./public/img/products_mini/product-shoes.jpg" alt="">
                     <h6 class="article-section">Minimal Shoes</h6>
                     <p class="prix-section">$60.00</p>
                 </div>
             </div>
             <div class="row divRow-section5 m-0 p-0">
                 <div class="col-3">
-                    <img height="180px" width="200px" src="./public/img/products_mini/product-tshitr.jpg" alt="">
+                    <img class="imgSct5" src="./public/img/products_mini/product-tshitr.jpg" alt="">
                     <h6 class="article-section">Minimal T-Shirt</h6>
                     <p class="prix-section">$15.00</p>
                 </div>
@@ -304,79 +293,75 @@
     </section>
 
     <!-- section 6 -->
-    <section>
-        <div class="d-flex divPrinciaple-section6">
-            <div class="card-body div-cards">
-                <i class="far fa-check-circle"></i>
-                <h5 class="card-subtitle mb-2 h5-section6">TRUSTED BY 10,000+ CUSTOMERS</h5>
-                <p class="card-text p-section6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
-                    sapiente modi labore dolores reiciendis itaque odit.</p>
-                <button class="button1-section6">
-                    LEARN MORE
-                </button>
+    <section id="section6">
+        <div class="container-flex">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="far fa-check-circle checkIcon"></i>
+                    <h6 class="card-subtitle mb-2 text-muted">TRUSTED BY 10,000+ CUSTOMERS</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laboriosam
+                        facilis
+                        quo consequatur, quasi modi asperiores laborum!</p>
+                    <button class="cradBtn">LEARN MORE</button>
+                </div>
             </div>
-            <div class="card-body div-cards">
-                <i class="far fa-paper-plane"></i>
-                <h5 class="card-subtitle mb-2 h5-section6">VERY FAST SHIPPING</h5>
-                <p class="card-text p-section6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
-                    sapiente modi labore dolores reiciendis itaque odit.</p>
-                <button class="bouttonCartes button1-section6">
-                    LEARN MORE
-                </button>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="far fa-paper-plane planeIcon"></i>
+                    <h6 class="card-subtitle mb-2 text-muted">VERY FAST SHIPPING</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laboriosam
+                        facilis
+                        quo consequatur, quasi modi asperiores laborum!</p>
+                    <button class="cradBtn">LEARN MORE</button>
+                </div>
             </div>
-            <div class="card-body div-cards">
-                <i class="far fa-check-circle"></i>
-                <h5 class="card-subtitle mb-2 h5-section6">TRUSTED BY 10,000+ CUSTOMERS</h5>
-                <p class="card-text p-section6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est
-                    sapiente modi labore dolores reiciendis itaque odit.</p>
-                <button class="bouttonCartes button1-section6">
-                    LEARN MORE
-                </button>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="far fa-check-circle checkIcon"></i>
+                    <h6 class="card-subtitle mb-2 text-muted">TRUSTED BY 10,000+ CUSTOMERS</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laboriosam
+                        facilis
+                        quo consequatur, quasi modi asperiores laborum!</p>
+                    <button class="cradBtn">LEARN MORE</button>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- footer -->
-    <footer>
-        <div class="d-flex divPrincipale-footer">
-            <div id="div-footer" class="div-footer">
-                <h5 class="h5-footer">
-                    ABOUT US
-                </h5>
-                <p class="p-footer">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
-                    which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
-                    which was created for the bliss of cats.</p>
-            </div>
-            <div class="div-footer">
-                <h5 class="h5-footer">
-                    RECENT POSTS
-                </h5>
-                <h6 id="h6-footer">> Hello World</h6>
-                <h6 class="h6-footer">> Wonderful serenity has taken</h6>
-                <h6 class="h6-footer">>In my soul and absorb its power</h6>
-                <h6 class="h6-footer">>I hear the buzz of the little bees</h6>
-            </div>
-            <div class="div-footer">
-                <h5 class="h5-footer">
-                    TAG CLOUD
-                </h5>
-                <button id="button-footer" class="bouttonsTags">business</button>
-                <button class="bouttonsTags button-footer">confidence</button>
-                <button class="bouttonsTags button-footer">gadgets</button>
-                <br>
-                <button class="bouttonsTags button-footer">identity</button>
-                <button class="bouttonsTags button-footer">logo</button>
-                <button class="bouttonsTags button-footer">photography</button>
-                <br>
-                <button class="bouttonsTags button-footer">time</button>
-                <button class="bouttonsTags button-footer">trips</button>
-                <button class="bouttonsTags button-footer">works</button>
-                <br>
-                <button class="bouttonsTags button-footer">work space</button>
+    <footer id="footer">
+        <div class="container-flex">
+            <div class="row">
+                <div class="col-4">
+                    <h5 class="titleFtr">ABOUT US</h5>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+                        which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
+                        which was created for the bliss of cats.</p>
+                </div>
+                <div class="col-4">
+                    <h5 class="titleFtr">RECENT POSTS</h5>
+                    <p class="greyP">> Hello World !</p>
+                    <p class="greyP">> Wonderful serenity has taken</p>
+                    <p class="greyP">> In my soul and absorbs its power</p>
+                    <p class="greyP">> I hear the buzz of the little bees</p>
+                </div>
+                <div class="col-4">
+                    <h5 class="titleFtr">TAG CLOUD</h5>
+                    <button class="tags">bussines</button>
+                    <button class="tags">confidence</button>
+                    <button class="tags">gadgets</button>
+                    <button class="tags">identity</button>
+                    <button class="tags">logo</button>
+                    <button class="tags">photography</button>
+                    <button class="tags">time</button>
+                    <button class="tags">trips</button>
+                    <button class="tags">works</button>
+                    <button class="tags">work spaces</button>
+                </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center divCopy-footer">
-            <p id="copyright">COPYRIGHT 2020 GOODLAYERS, ALL RIGHTS RESERVED</p>
+        <div id="copyright">
+            <p>COPYRIGHT 2020 GOODLAYERS, ALL RIGHTS RESERVED</p>
         </div>
     </footer>
 
